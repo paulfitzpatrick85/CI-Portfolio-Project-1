@@ -7,24 +7,46 @@
 
 body {
     font-family: Montserrat, sans-serif;
-    color: red
 }
 
+header {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    /*background-image: linear-gradient(to bottom right, red, yellow);*/
+}
+/*nav links*/
 #menu {
     font-size: 120%;
     text-align: center;
     line-height: 65px;
-    color: black;
-
-    }
+     }
 
 #menu li {
     float: none;
     text-decoration: none;
     display: inline;
     padding: 20px 60px 20px 60px;
-    
-}
+    }
 
 #menu a {
     text-decoration: none;
+    color: #fff;
+}
+
+#menu a:hover {
+    border-bottom: crimson 2px solid;
+}
+
+.active {
+    border-bottom: darkblue 2px solid;
+}
+
+/*hero image section*/
+
+
+
+#hero-image{
+    height:600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center;
+    
+}
