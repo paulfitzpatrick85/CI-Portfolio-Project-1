@@ -10,8 +10,8 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
-    /*background-image: linear-gradient(to bottom right, red, yellow);*/
+   /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);*/
+    background-image: linear-gradient(to bottom right, rgb(107, 243, 103), rgb(81, 236, 9));
 }
 /*nav links*/
 #menu {
@@ -33,20 +33,33 @@ header {
 }
 
 #menu a:hover {
-    border-bottom: crimson 2px solid;
+    border-bottom: gray 2px solid;
 }
 
 .active {
-    border-bottom: darkblue 2px solid;
+    border-bottom: gray 2px solid;
 }
 
 /*hero image section*/
-
-
+#hero-outer{
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
 #hero-image{
     height:600px;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center;
+    background: url("../images/hero-image3.jpg") no-repeat center center;
+    }
+
+    #hero-image > h2 {
+        color: #fff;
+        font-family: jura, sans-serif;
+        font-size: 80px;
+        text-align: center;
+        border: 1px solid #fff;
+        padding-top: 120px;
+    }
     
-}
