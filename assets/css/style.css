@@ -78,6 +78,9 @@ header {
 
     #about {
         background-color: rgba(84, 224, 84, .5);
+        border: 3px solid black;
+        overflow: hidden;
+        
     }
 
     #about-heading {
@@ -87,6 +90,7 @@ header {
 
     #about-box-heading {
         padding-bottom: 20px;
+        text-decoration: underline gray;
     }
 
     .about-box {
@@ -103,8 +107,10 @@ header {
     float: right;
     }
 
-p {
+ p {
     font-size: 20px;
+    /* font-weight: 400; */
     line-height: 30px;
+    padding: 10px 20px;
 }
     
