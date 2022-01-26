@@ -78,7 +78,6 @@ header {
 
     #about {
         background-color: rgba(84, 224, 84, .5);
-        border: 3px solid black;
         overflow: hidden;
         
     }
@@ -97,6 +96,7 @@ header {
         width: 33%;
         display: inline-block;
         text-align: center;
+        
     }
 
     .float-left {
@@ -131,5 +131,15 @@ footer{
 .social-networks i{
     font-size: 180%;
     padding: 5%;
-    color: #3a3a3a;
+    color: black;
 }
+
+#to-do-box{
+     width: 50%;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+
+        
+    }
