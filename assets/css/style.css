@@ -160,3 +160,49 @@ ul {
   }
 
   /*"What you can use" section*/
+
+  #use {
+    background-color: #ECDDD9;
+    overflow: hidden;
+    height: 400px;
+     }
+
+  .use-box {
+    width: 50%;
+    display: inline-block;
+   }
+   
+   .use-box > h2, h4 {
+       text-align: center;
+       padding: 20px 40px 0 40px;
+   }
+   
+   #use-list {
+       padding-left: 10%;
+   }
+
+   /*"recommended" section*/
+
+   .recommend {
+    background-color: rgba(84, 224, 84, .5);
+    height: 400px;
+    overflow: hidden;
+    display: block;
+   }
+
+   #rec-heading {
+       text-align: center;
+       padding-top: 20px;
+   }
+
+   .video {
+       padding: 20px;
+      }
+
+   .book {
+       padding: 40px 220px 0 10px;
+    
+      }
+
+    
+    
