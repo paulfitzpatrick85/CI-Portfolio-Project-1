@@ -111,6 +111,8 @@ header {
     line-height: 30px;
     padding: 10px 20px;
 }
+
+/*footer*/
     
 footer{
     height: 150px;
@@ -131,9 +133,11 @@ footer{
     padding: 5%;
     color: black;
 }
+/*resources page*/
 
+/*"what you can do" section*/
 #to-do {
-    background-color: rgba(84, 224, 84, .5);
+    background-color: #ECDDD9;
     overflow: hidden;
     height: 400px;
      }
@@ -143,10 +147,16 @@ footer{
  display: inline-block;
 }
 
-#to-do-heading {
+.to-do-box > h2, h4 {
     text-align: center;
+    padding: 20px 40px 0 40px;
 }
 
 #to-do-list {
     padding-left: 10%;
 }
+ul {
+    list-style-type: upper-roman;
+  }
+
+  /*"What you can use" section*/
