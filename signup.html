@@ -26,6 +26,88 @@
             </ul>
         </nav>
     </header>
+    <section id="form-section">
+        <form action="#" method="post">
+            <h1>Sign up for our newsletter and submit your tips for other parents.</h1>
+            <fieldset>
+                <legend>Your details</legend>
+        
+                <div class="float-left">
+                    <label for="name-field" class="block-label">Name</label>
+                    <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+                </div>
+                <div class="float-left">
+                    <label for="email-field" class="block-label">Email</label>
+                    <input id="email-field" type="email" name="email" placeholder="Your email" required>
+                </div>
+        
+                <label for="age" class="block-label">Childs Age</label>
+                <select id="age" name="age" required>
+                    <option value="under-2">under 2</option>
+                    <option value="2">2 years old</option>
+                    <option value="3">3 years old</option>
+                    <option value="4">4 years old</option>
+                    <option value="5">5 years old</option>
+                    <option value="6">6 years old</option>
+                    <option value="7">7 years old</option>
+                    <option value="7-10">7-10 years old</option>
+                    <option value="10-12">10-12years old</option>
+                </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>How often do you visit SLT/OT services?</legend>
+            <input id="once-a-fortnight" name="services" value="once-a-fortnight" type="radio">
+			<label for="once-a-fortnight">Once a fortnight</label>
+
+			<input id="once-a-month" name="services" value="once-a-month" type="radio">
+			<label for="once-a-month">Once-a-month</label>
+
+			<input id="once-2to3months" name="services" value="once-2to3months" type="radio">
+			<label for="once-2to3months">Once every two to three months</label>
+
+			<input id="no-services" name="services" value="no-services" type="radio">
+			<label for="no-services">Currently looking for therapists</label>
+
+			<p id="how">how did you hear about us?</p>
+			<div>
+				<input type="checkbox" id="brownies-checkbox" name="brownies">
+				<label for="brownies-checkbox">Brownies</label>
+			</div>
+			<div>
+				<input type="checkbox" id="cookies-checkbox" name="cookies">
+				<label for="cookies-checkbox">Cookies</label>
+			</div>
+			<div>
+				<input type="checkbox" id="nachos-checkbox" name="nachos">
+				<label for="nachos-checkbox">Nachos</label>
+			</div>
+			<div>
+				<input type="checkbox" id="croissants-checkbox" name="croissants">
+				<label for="croissants-checkbox">Croissants</label>
+			</div>
+			<div>
+				<input type="checkbox" id="scones-checkbox" name="scones">
+				<label for="scones-checkbox">Scones</label>
+			</div>	
+		</fieldset>
+
+        <fieldset>
+			<legend>Help Out</legend>
+			<label for="tips" class="block-label">Tell us what would you wish you knew earlier so we pass it on to other parents.</label>
+			<br>
+			<textarea id="tips" rows="6" cols="60" name="tips"></textarea>
+		</fieldset>
+
+		
+        
+
+		<input type="submit" class="block-label" value="Send">
+		<input type="reset" value="Reset Form">
+
+	</form>
+</section>
+
 
     
 

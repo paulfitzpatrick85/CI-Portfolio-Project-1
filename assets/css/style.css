@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
     border:0;
+    
 }
 
 body {
@@ -204,5 +205,51 @@ ul {
     
       }
 
+      #form-section {
+          background-color: #ECDDD9;
+          padding: 30px;
+      }
+
+      form {
+        width: 750px;
+        padding: 25px;
+        border-radius: 12px;        
+        background-color: rgba(84, 224, 84, .5);
+        margin: 25px auto;
+        }
+
+       
+
+    .block-label {
+        display: block;
+    }
+
+    form > h1 {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    legend  {
+        font-size: large;
+        font-weight: 600;
+        text-align: center;
+        padding: 20px 0 10px 0;
+    }
+
+    #how {
+        font-size: large;
+        font-weight: 600;
+        text-align: center;
+        padding: 20px 0 10px 0;
+    }
+
+    input[type=text],
+input[type=email] {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+	margin: 0 auto;
+    border: 1px solid #ECDDD9;
     
+}
     

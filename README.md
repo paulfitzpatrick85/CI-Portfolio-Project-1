@@ -3,6 +3,10 @@ screen shots of page n different devices-- am i .reponsive design
 
 feature section --- description of different section pf page , what they do and why it benefits user
 
+signup form
+
+required not used for radio button because this section may not be applicable to all users
+
 testing section
 
 bugs found while creaing and testing
