@@ -10,6 +10,8 @@ required not used for radio button because this section may not be applicable to
 testing section
 
 bugs found while creaing and testing
+
+CHANGE ID'S TO CLASSES
 unoreder list bullet points that should appear in right div, pouring over into left div. unsure how this was happening as its a separate div but padding resolved the issue
 
 validator testing  on html and css,

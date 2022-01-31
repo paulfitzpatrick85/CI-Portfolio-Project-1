@@ -87,7 +87,7 @@ header {
         padding: 20px 80px 60px 80px;
     }
 
-    #about-box-heading {
+    .about-box-heading {
         padding-bottom: 20px;
         text-decoration: underline gray;
     }
@@ -165,7 +165,7 @@ ul {
   #use {
     background-color: #ECDDD9;
     overflow: hidden;
-    height: 400px;
+    height: 420px;
      }
 
   .use-box {
