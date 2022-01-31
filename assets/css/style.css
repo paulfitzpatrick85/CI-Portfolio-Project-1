@@ -157,7 +157,7 @@ footer{
     padding-left: 10%;
 }
 ul {
-    list-style-type: upper-roman;
+    list-style-type:disc;
   }
 
   /*"What you can use" section*/
@@ -171,6 +171,7 @@ ul {
   .use-box {
     width: 50%;
     display: inline-block;
+    line-height: 20px;
    }
    
    .use-box > h2, h4 {
@@ -181,6 +182,10 @@ ul {
    #use-list {
        padding-left: 10%;
    }
+   
+   /* li {
+       line-height: 20px;
+   } */
 
    /*"recommended" section*/
 
@@ -230,17 +235,12 @@ ul {
     }
 
     legend  {
+        text-transform: uppercase;
         font-size: large;
         font-weight: 600;
         text-align: center;
-        padding: 20px 0 10px 0;
-    }
+        padding: 40px 0 20px 0;
 
-    #how {
-        font-size: large;
-        font-weight: 600;
-        text-align: center;
-        padding: 20px 0 10px 0;
     }
 
     input[type=text],
@@ -250,6 +250,22 @@ input[type=email] {
     padding-left: 10px;
 	margin: 0 auto;
     border: 1px solid #ECDDD9;
-    
 }
-    
+
+select {
+    height: 32px;
+}
+
+input[type=submit] {
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    }
+
+    input[type=reset] {
+        margin-top: 5px;
+        padding: 10px;
+        background-color: transparent;
+        border: 2px solid #ECDDD9;
+        border-radius: 10px;
+        }
