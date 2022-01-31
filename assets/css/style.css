@@ -269,3 +269,46 @@ input[type=submit] {
         border: 2px solid #ECDDD9;
         border-radius: 10px;
         }
+
+        /* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+
+    #about{
+        width: 65%;
+        height: 2000px;
+        margin: 0 auto;
+    }
+    
+    #goal {
+        padding: 30px 0;
+        margin: 0;
+    }
+    
+    .about-box {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+}
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+
+    #menu{
+        float:none;
+        margin-left: 30px; 
+        padding: 0;
+        line-height: 25px;
+        padding: 0 10px 0 10px;
+         }
+
+         #menu li {
+        padding: 0 10px 0 10px;
+
+         }
+
+}
+
