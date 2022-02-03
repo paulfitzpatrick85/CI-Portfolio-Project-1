@@ -8,6 +8,8 @@
 
 body {
     font-family: Montserrat, sans-serif;
+
+    
 }
 header {
     background-color: rgba(84, 224, 84, .5);
@@ -66,7 +68,7 @@ header {
     height: 150px;
     background-color: rgba(84, 224, 84, .5);
     border-radius: 20px;
-    left: 210px;
+    left: 380px;
     top: 200px;
     position: absolute;
     }
@@ -78,7 +80,7 @@ header {
     /*about section*/
 
     #about {
-        background-color: rgba(84, 224, 84, .5);
+        background-color: rgba(28, 187, 28, 0.5);
         overflow: hidden;
          }
 
@@ -116,8 +118,9 @@ header {
 /*footer*/
     
 footer{
-    height: 150px;
+    min-height: 150px;
     background-color: rgba(84, 224, 84, .5);
+    
 }
 
 .social-networks{
@@ -154,7 +157,7 @@ footer{
 }
 
 #to-do-list {
-    padding-left: 10%;
+    padding-left: 5%;
 }
 ul {
     list-style-type:disc;
@@ -180,17 +183,13 @@ ul {
    }
    
    #use-list {
-       padding-left: 10%;
+       padding-left: 5%;
    }
-   
-   /* li {
-       line-height: 20px;
-   } */
 
    /*"recommended" section*/
 
    .recommend {
-    background-color: rgba(84, 224, 84, .5);
+    background-color: rgba(28, 187, 28, 0.5);
     height: 400px;
     overflow: hidden;
     display: block;
@@ -206,9 +205,8 @@ ul {
       }
 
    .book {
-       padding: 40px 220px 0 10px;
-    
-      }
+       padding: 40px 220px 0px 10px;
+     }
 
       #form-section {
           background-color: #ECDDD9;
@@ -273,42 +271,50 @@ input[type=submit] {
         /* Media queries */
 
 /* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
+
+    #hero-text {
+        left: 180px;
+     }
+
 
     #about{
-        width: 65%;
-        height: 2000px;
+        width: 100%;
+        height: 1000px;
         margin: 0 auto;
     }
-    
-    #goal {
-        padding: 30px 0;
-        margin: 0;
-    }
-    
-    .about-box {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
 
+     .about-box {
+        width: 100%;
 }
+
+
+    
+    
+    
 
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
 
-    #menu{
-        float:none;
-        margin-left: 30px; 
-        padding: 0;
-        line-height: 25px;
-        padding: 0 10px 0 10px;
-         }
+   #menu li {
+    padding: 20px 60px 20px 60px;
+   }
 
-         #menu li {
-        padding: 0 10px 0 10px;
+   #hero-text {
+    left: 130px;
+    width: 66%;
+    }
 
-         }
+    #use {
+        height: 1000px;
+    }
+    .use-box {
+        width: 100%;
+        display: block;
+    }
 
+
+ 
+    
 }
 
