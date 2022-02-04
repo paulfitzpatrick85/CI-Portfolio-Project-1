@@ -305,16 +305,54 @@ input[type=submit] {
     width: 66%;
     }
 
-    #use {
-        height: 1000px;
+    .to-do-box {
+        width: 100%;
+        display: block;
     }
+
+   .to-do-box li {
+        padding: 10px 5px 10px 2px;
+        
+    }
+
+    #to-do-list br {
+        display: none;
+    }
+
+    #to-do {
+        height: 690px;
+        display: flex;
+        flex-direction: column-reverse;
+        }
+
+    #born-image {
+        height: 350px;
+    }
+
+    #use {
+        height: 970px;
+    }
+
     .use-box {
         width: 100%;
         display: block;
     }
 
+        #use-list li {
+            padding-bottom: 10px;
+        }
 
- 
+        .recommend {
+            height: 1000px;
+        }
+
+    .rec-block {
+        width: 100%;
+        display: block;
+        }
+    }
+
+    
     
 }
 
