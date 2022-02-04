@@ -280,14 +280,11 @@ input[type=submit] {
 
     #about{
         width: 100%;
-        height: 1000px;
+        height: 750px;  /*was 1000px */
         margin: 0 auto;
     }
-
-     .about-box {
-        width: 100%;
 }
-
+     
 
     
     
@@ -295,7 +292,7 @@ input[type=submit] {
 
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
-
+/*index page*/
    #menu li {
     padding: 20px 60px 20px 60px;
    }
@@ -305,6 +302,14 @@ input[type=submit] {
     width: 66%;
     }
 
+    #about {
+        height: 1000px;
+    }
+
+    .about-box {
+        width: 100%;
+}
+/*resources*/
     .to-do-box {
         width: 100%;
         display: block;
@@ -312,8 +317,7 @@ input[type=submit] {
 
    .to-do-box li {
         padding: 10px 5px 10px 2px;
-        
-    }
+        }
 
     #to-do-list br {
         display: none;
@@ -338,21 +342,22 @@ input[type=submit] {
         display: block;
     }
 
-        #use-list li {
-            padding-bottom: 10px;
-        }
+     #use-list li {
+         padding-bottom: 10px;
+    }
 
-        .recommend {
-            height: 1000px;
-        }
+    .recommend {
+         height: 1000px;
+    }
 
     .rec-block {
-        width: 100%;
-        display: block;
+        
+        
         }
+
     }
 
     
     
-}
+
 
