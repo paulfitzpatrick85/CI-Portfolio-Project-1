@@ -190,25 +190,24 @@ ul {
 
    .recommend {
     background-color: rgba(28, 187, 28, 0.5);
-    height: 400px;
+    height: 550px;
     overflow: hidden;
-    display: block;
    }
 
    #rec-heading {
        text-align: center;
-       padding-top: 20px;
+       padding: 20px;
    }
 
-   .video {
-       padding: 20px;
-      }
+   .rec-box {
+       width: 40%;
+       display: inline-block;
+       padding: 30px 0px 20px 20px;
+       }
 
-   .book {
-       padding: 40px 220px 0px 10px;
-     }
+       /*signup page*/
 
-      #form-section {
+    #form-section {
           background-color: #ECDDD9;
           padding: 30px;
       }
@@ -286,10 +285,6 @@ input[type=submit] {
 }
      
 
-    
-    
-    
-
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
 /*index page*/
@@ -308,7 +303,9 @@ input[type=submit] {
 
     .about-box {
         width: 100%;
-}
+    }
+    
+
 /*resources*/
     .to-do-box {
         width: 100%;
@@ -350,14 +347,41 @@ input[type=submit] {
          height: 1000px;
     }
 
-    .rec-block {
-        
-        
+    .rec-box {
+        width: 100%;
+        display: block;
+        /* padding: 30px 0px 20px 20px; */
         }
 
+        #book {
+            padding-left: 350px;
+        }
+    
+        #video {
+            padding-left: 210px;
+        }
     }
 
-    
+    /* For medium screens sizes from 620px wide and down */
+@media screen and (max-width: 620px) {
+
+    #menu li{
+    padding: 10px ;
+    }
+
+    #to-do {
+        height: fit-content;
+    }
+
+    #use {
+        height: fit-content;
+    }
+
+    p {
+        text-align: left;
+        
+    }
+}
     
 
 
