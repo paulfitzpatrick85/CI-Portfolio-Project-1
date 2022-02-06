@@ -225,6 +225,10 @@ ul {
     .block-label {
         display: block;
     }
+    
+    .radio {
+        display: inline-block;
+    }
 
     form > h1 {
         text-align: center;
@@ -237,7 +241,6 @@ ul {
         font-weight: 600;
         text-align: center;
         padding: 40px 0 20px 0;
-
     }
 
     input[type=text],
@@ -270,17 +273,24 @@ input[type=submit] {
         /* Media queries */
 
 /* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1200px) {
 
     #hero-text {
         left: 180px;
      }
 
-
     #about{
         width: 100%;
-        height: 750px;  /*was 1000px */
+        height: 750px;  
         margin: 0 auto;
+    }
+
+    #born-image {
+        height: 420px;
+    }
+
+    #tips {
+        width: 100%;
     }
 }
      
@@ -331,7 +341,7 @@ input[type=submit] {
     }
 
     #use {
-        height: 970px;
+        height: 840px;
     }
 
     .use-box {
@@ -350,7 +360,6 @@ input[type=submit] {
     .rec-box {
         width: 100%;
         display: block;
-        /* padding: 30px 0px 20px 20px; */
         }
 
         #book {
@@ -360,14 +369,30 @@ input[type=submit] {
         #video {
             padding-left: 210px;
         }
+
+        form {
+            width: 600px;
+        }
+
     }
 
-    /* For medium screens sizes from 620px wide and down */
-@media screen and (max-width: 620px) {
+    /* For medium screens sizes from 500px wide and down */
+@media screen and (max-width: 500px) {
 
     #menu li{
     padding: 10px ;
     }
+
+    #hero-text {
+        width: 270px;
+        height: 250px;
+        left: 70px;
+        top: 150px;
+}
+
+    #about {
+        height: 1900px;
+}
 
     #to-do {
         height: fit-content;
@@ -377,10 +402,37 @@ input[type=submit] {
         height: fit-content;
     }
 
+    .recommend {
+        height: 1050px;
+    }
+
+    #book {
+        padding-left: 130px;
+    }
+
+    #video {
+        padding-left: 50px;
+        width: 75%;
+    }
+
     p {
         text-align: left;
+        }
+
+        form {
+            width: 100%;
+            padding: 10px;
+            }
+
+        .radio {
+            display: block;
+        }
+
+        .block-label {
+            display: inline-block;
+        }
+
         
-    }
 }
     
 
