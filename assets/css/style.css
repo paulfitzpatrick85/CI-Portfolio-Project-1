@@ -68,7 +68,7 @@ header {
     height: 150px;
     background-color: rgba(84, 224, 84, .5);
     border-radius: 20px;
-    left: 380px;
+    left: 220px;
     top: 200px;
     position: absolute;
     }
@@ -391,7 +391,12 @@ input[type=submit] {
 }
 
     #about {
-        height: 1900px;
+        height: 1600px;
+}
+
+#about-heading {
+    text-align: center;
+    padding: 20px 30px 30px 30px;
 }
 
     #to-do {
@@ -424,6 +429,10 @@ input[type=submit] {
             padding: 10px;
             }
 
+            select {
+                display: block;
+            }
+
         .radio {
             display: block;
         }
@@ -432,8 +441,74 @@ input[type=submit] {
             display: inline-block;
         }
 
-        
+/* For medium screens sizes from 375px wide and down */
+@media screen and (max-width: 375px) {
+    #hero-text {
+        left: 20px;
+    }
+
+    #about  {
+        height: 2100px;
+    }
 }
+        
+
+
+/* For medium screens sizes from 325px wide and down */
+@media screen and (max-width: 325px) {
+
+     #hero-text {
+         font-size: 150%;
+        width: 230px;
+        height: 240px;
+        left: 30px;
+        top: 150px;
+        padding: 5px;
+}
+
+#about-heading {
+    text-align: center;
+    padding: 20px 25px 40px 25px;
+}
+
+
+#about {
+    height: 2600px;
+}
+
+footer {
+    min-height: 80px;
+}
+
+.recommend {
+    height: 1100px;
+}
+
+#video {
+    padding-left: 20px;
+}
+
+#book{
+    padding-left: 50px;
+}
+
+legend {
+    font-size:medium;
+}
+
+.block-label {
+    padding-top: 8px;
+}
+
+select {
+    height: 26px;
+    padding-top: 2px;
+    padding-left: 14px;
+}
+
+}
+        
+
     
 
 
