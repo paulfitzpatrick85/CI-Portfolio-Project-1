@@ -9,6 +9,10 @@ The Parents A.S.D Resources website is intended as a source of clear and practic
 ## Navagation.
 
 At the top of all three pages, users will find links to the home, resources and signup pages, along with an underline indicating which page the user is currently on.
+![Screenshot (91)](https://user-images.githubusercontent.com/55660566/153057079-49414ed8-eb8f-44c5-b0ee-85a36ec27e69.png)
+
+image is 889 
+
 At the bottom of each page, the footer has social media icons linking to each sites homepage (as this is a ficitous site with without social media profiles).
 
 ## Homepage.
@@ -34,7 +38,7 @@ This section contains two embedded links.
 A page were users can signup for a newsletter, enter details that the site owner can use to better understand the users situation (childs age, how often they attend services), and also a text area to submit comments and tips etc for the site to make its list for the resources page.
 
 ## Testing section
-![creenshot1](assets/css/images/collage.jpg)
+![Screenshot1](assets/css/images/collage.jpg)
 
 ### Bugs found while creaing and testing
 
