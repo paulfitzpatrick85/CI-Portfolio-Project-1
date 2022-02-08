@@ -16,8 +16,8 @@ image is 889
 At the bottom of each page, the footer has social media icons linking to each sites homepage (as this is a ficitous site with without social media profiles).
 
 ## Homepage.
-On the homepage users will find a brief introduction of the three catagories that the site addresses, along with links to a its resources page and signup form.
-
+On the homepage users will find a brief introduction of the three catagories that the site addresses, 
+![Screenshot (96)](https://user-images.githubusercontent.com/55660566/153058240-1e91f6b8-8856-4af5-9536-805e94fada32.png)
 
 ## Theme.
 The color scheme of the header, footer and body where chosen to work around and play off the main hero image of the home page, and maintain the positive feel of the home page image throughout the pages that follow it.
@@ -25,6 +25,8 @@ The color scheme of the header, footer and body where chosen to work around and 
 ## 'What you can do' and 'What you can use' sections.
 The main idea behind this website is that the ideas outlined are shortlisted for other users (as in other parents that have used the site or from the related social media sites) submitted recommendations.
 - The first section being what the users/parents can do to by themselves ie, educate themselves in the topic of ASD and also the mindset to approach the topic.
+
+The layout for large screens is made to appear as four block, with the text and images of each section diagonal from one another, and as this would not work on smaller screens, the order of the sections were reversed to appear as text/image/text/image as the user scrolls down the screen.
 
 - The second section show what items can be used for what purposes and also includes a link to an external website for a parents course in communication called "Hanen:more than more".
 
