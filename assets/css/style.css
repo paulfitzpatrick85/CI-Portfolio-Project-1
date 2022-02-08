@@ -82,6 +82,7 @@ header {
     #about {
         background-color: rgba(28, 187, 28, 0.5);
         overflow: hidden;
+        height: fit-content;
          }
 
     #about-heading {
@@ -308,7 +309,7 @@ input[type=submit] {
     }
 
     #about {
-        height: 1000px;
+        height: fit-content;
     }
 
     .about-box {
@@ -375,12 +376,129 @@ input[type=submit] {
         }
 
     }
+/* For medium screens sizes from 932px wide and down */
+@media screen and (max-width: 932px) {
+    #to-do {
+        height: 720px;}
 
-    /* For medium screens sizes from 500px wide and down */
-@media screen and (max-width: 500px) {
+    .to-do-box h2 {
+        padding-top: 40px;
+    }
+}
 
-    #menu li{
-    padding: 10px ;
+ /* For medium screens sizes from 845px wide and down */
+ @media screen and (max-width: 845px) {
+     #about {
+     height: 1200px;
+     }
+ }
+
+
+    /* For medium screens sizes from 790px wide and down */
+@media screen and (max-width: 790px) {
+
+    #to-do {
+        height: 720px;}
+
+    .to-do-box h2 {
+        padding-top: 40px;
+    }
+
+    #video {
+        padding-left: 100px;
+    }
+
+    #book {
+        padding-left: 250px;
+    }
+}
+
+/* For medium screens sizes from 740px wide and down */
+@media screen and (max-width: 740px) {
+
+    #about {
+        height: 1400px;
+    }
+
+    form {
+        width: 100%;
+        padding: 10px;
+        }
+
+        select {
+            display: block;
+        }
+
+    .radio {
+        display: block;
+    }
+
+    .block-label {
+        display: inline-block;
+    }
+    #collage-image {
+        height: fit-content;
+    }
+
+}
+
+/* For medium screens sizes from 662px wide and down */
+@media screen and (max-width: 662px) {
+
+    #hero-text {
+        height: 170px;
+        left: 70px;
+    }
+    #about-heading {
+        padding: 20px 20px 30px 20px;
+    }
+   
+    #to-do {
+        height: fit-content;}
+
+    .to-do-box h2 {
+        padding-top: 60px;
+    }
+}
+
+/* For medium screens sizes from 645px wide and down */
+@media screen and (max-width: 645px) {
+
+    form {
+        width: 75%;
+        padding: 10px;
+        }
+
+        select {
+            display: block;
+        }
+
+    .radio {
+        display: block;
+    }
+
+    .block-label {
+        display: inline-block;
+    }
+
+    select {
+        height: 30px;
+    }
+}
+
+/* For medium screens sizes from 620px wide and down */
+@media screen and (max-width: 620px) {
+
+    #menu li {
+    padding: 20px;
+    }
+}
+
+/* For medium screens sizes from 555px wide and down */
+@media screen and (max-width: 555px) {
+
+    #menu li {
+    padding: 10px;
     }
 
     #hero-text {
@@ -391,7 +509,7 @@ input[type=submit] {
 }
 
     #about {
-        height: 1600px;
+        height: 1800px;
 }
 
 #about-heading {
@@ -423,49 +541,51 @@ input[type=submit] {
     p {
         text-align: left;
         }
+}
 
-        form {
-            width: 100%;
-            padding: 10px;
-            }
+ /* For medium screens sizes from 528px wide and down */
+ @media screen and (max-width: 528px) {
 
-            select {
-                display: block;
-            }
+ }
 
-        .radio {
-            display: block;
-        }
+    /* For medium screens sizes from 422px wide and down */
+@media screen and (max-width: 422px) {
+    #about {
+        height: 2000px;
+    }
 
-        .block-label {
-            display: inline-block;
-        }
+    .recommend {
+        height: 1150px;
+    }
+}
 
-/* For medium screens sizes from 375px wide and down */
-@media screen and (max-width: 375px) {
+/* For medium screens sizes from 385px wide and down */
+@media screen and (max-width: 385px) {
     #hero-text {
         left: 20px;
     }
 
     #about  {
-        height: 2100px;
+        height: 2200px;
     }
 }
         
 
 
-/* For medium screens sizes from 325px wide and down */
-@media screen and (max-width: 325px) {
+/* For medium screens sizes from 348px wide and down */
+@media screen and (max-width: 348px) {
 
      #hero-text {
          font-size: 150%;
         width: 230px;
         height: 240px;
-        left: 30px;
+        left: 40px;
         top: 150px;
         padding: 5px;
 }
-
+#about {
+    height: 2200px;
+}
 #about-heading {
     text-align: center;
     padding: 20px 25px 40px 25px;
@@ -481,7 +601,7 @@ footer {
 }
 
 .recommend {
-    height: 1100px;
+    height: 1200px;
 }
 
 #video {

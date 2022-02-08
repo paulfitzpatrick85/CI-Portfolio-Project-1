@@ -1,6 +1,6 @@
 # Parents A.S.D Resources
 
-View the finished website [#] (-----)
+View the finished website [ https://paulfitzpatrick85.github.io/CI-Portfolio-Project-1/] (Parents ASD Resources)
 
 The Parents A.S.D Resources website is intended as a source of clear and practical information for parents of children recently diagnosed with autism spectrum disorder, namely what they can do themselves for their children in the interim of waiting times for state provided and private services.
 
@@ -29,33 +29,24 @@ This section contains two embedded links.
 1. Ted Talk video from youtube.
 2. A book from amazon.
 
+## Signup form
+
+A page were users can signup for a newsletter, enter details that the site owner can use to better understand the users situation (childs age, how often they attend services), and also a text area to submit comments and tips etc for the site to make its list for the resources page.
+
+## Testing section
+![creenshot1](assets/css/images/collage.jpg)
+
+### Bugs found while creaing and testing
 
 
-
-
-View the finished website [google] (htttps//:www.google.com)
-
-
-
-
-signup form
-
-required not used for radio button because this section may not be applicable to all users
-
-testing section
-
-bugs found while creaing and testing
-
-CHANGE ID'S TO CLASSES
-unoreder list bullet points that should appear in right div, pouring over into left div. unsure how this was happening as its a separate div but padding resolved the issue
 
 validator testing  on html and css,
 accessability testing using lighthouse --score of 
 
-deployment
+## deployment
 
-credits
+## credits
 all images taken from pexels except for both picture of wooden toys on resources page, taken from fruugo.ie and amazon respectively.
 
-media
-links for video and book in recommended section taken from youtube and amazon respectively
+## media
+links for video and book in recommended section taken from youtube and amazon.com respectively
