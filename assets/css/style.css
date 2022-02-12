@@ -273,7 +273,14 @@ input[type=submit] {
 
         /* Media queries */
 
-/* For large to medium screens sizes from 1200px wide and down */
+        /* For large to medium screens sizes from 1500px wide and down */
+@media screen and (min-width: 1500px) {
+    #hero-text {
+        left: 430px;
+     }
+}
+
+        /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
     #hero-text {
@@ -292,6 +299,40 @@ input[type=submit] {
 
     #tips {
         width: 100%;
+    }
+}
+
+/* For large to medium screens sizes from 1070px wide and down */
+@media screen and (max-width: 1070px) {
+    #to-do {
+        height: 420px;
+    }
+
+    #use {
+        height: 480px;
+    }
+
+    #collage-image {
+        height: 480px;
+    }
+    
+
+}
+
+ /* For large to medium screens sizes from 1135px wide and down */
+ @media screen and (max-width: 1135px) {
+     #about {
+         height: 920px;
+     }
+ }
+
+
+/* For large to medium screens sizes from 961px wide and down */
+@media screen and (max-width: 961px) {
+    .to-do-box > h4 {
+
+        padding-top: 12px;
+
     }
 }
      
