@@ -52,7 +52,8 @@ At the bottom of each page, the footer has social media icons linking to each si
 ## Testing section
 I tested and confirmed the three pages are responsive to screen sizes as small as 325px.
 
-I tested my html on the w3c vaildator and found all code to be all ok once I removed three stray closing tags from the footer icons. 
+I tested my html on the w3c vaildator and found all code to be ok.
+Although the intial test found three stray closing tags from the footer icons, and showed that I accidentally placed the script for font awesome below the closing body tag. Once these errors when tended to, the vaildator gave the all clear.
 
 I also tested my css on jigsaw and everything was perfect first time.
 
@@ -66,10 +67,9 @@ I tested the sites accessibility through lighthouse, the image below showing the
 ## Bugs found while creaing and testing
 A large number of breakpoints had to be used to allow for correct reponsiveness across screen sizes to maintain the sites structural intregrity.
   
-
-
-
 ## deployment
+
+I deployed the website through github pages and confirmed that it displayed correctly across multipe screen sizes from large monitors to laptop, tablet and small smartphones.
 
 ## credits
 All images taken from pexels except for both picture of wooden toys on resources page, taken from fruugo.ie and amazon respectively.
