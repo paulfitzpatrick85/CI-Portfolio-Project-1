@@ -48,6 +48,7 @@
                 <div class="float-left">
                 <label for="age" class="block-label">Childs Age</label>
                 <select id="age" name="age" required>
+                    <option value="" disabled selected hidden>select age</option>
                     <option value="under-2">under 2</option>
                     <option value="2">2 years old</option>
                     <option value="3">3 years old</option>
@@ -64,7 +65,7 @@
         <fieldset>
             <legend>How often do you visit SLT/OT services?</legend>
             <div class="radio">
-                <input id="once-a-fortnight" name="services" value="once-a-fortnight" type="radio">
+                <input id="once-a-fortnight" name="services" value="once-a-fortnight" type="radio" required>
 			    <label for="once-a-fortnight">Once a fortnight</label>
             </div>
 
@@ -87,19 +88,19 @@
         <fieldset>
 			<legend>how did you hear about us?</legend>
 			<div>
-				<input type="checkbox" id="facebook-checkbox" name="hear-about-us" value="Facebook">
+				<input type="radio" id="facebook-checkbox" name="hear-about-us" value="facebook-checkbox" required>
 				<label for="facebook-checkbox">Facebook</label>
 			</div>
 			<div>
-				<input type="checkbox" id="twitter-checkbox" name="hear-about-us" value="Twitter">
+				<input type="radio" id="twitter-checkbox" name="hear-about-us" value="twitter-checkbox">
 				<label for="twitter-checkbox">Twitter</label>
 			</div>
 			<div>
-				<input type="checkbox" id="parents-recommend-checkbox" name="hear-about-us" value="parents-recommend">
+				<input type="radio" id="parents-recommend-checkbox" name="hear-about-us" value="parents-recommend-checkbox">
 				<label for="parents-recommend-checkbox">Recommendation from other Parents</label>
 			</div>
 			<div>
-				<input type="checkbox" id="other-checkbox" name="hear-about-us" value="other">
+				<input type="radio" id="other-checkbox" name="hear-about-us" value="other-checkbox">
 				<label for="other-checkbox">Other</label>
 			</div>	
 		</fieldset>
