@@ -69,11 +69,11 @@ A large number of breakpoints had to be used to allow for correct reponsiveness 
   
 ## deployment
 
-I deployed the website through github pages and confirmed that it displayed correctly across multipe screen sizes from large monitors to laptop, tablet and small smartphones.
+I deployed the website through github pages and confirmed that it displayed correctly across multipe screen sizes from large monitors to laptop, tablet and small smartphones (as small as 325px), and also in different browsers including chrome, firefox and microsoft edge
 
 ## credits
 All images taken from pexels except for both picture of wooden toys on resources page, taken from fruugo.ie and amazon respectively.
 The html for the footer was taken from the lov running project as a template and edited to suit this page, changes in padding and size for example.
 
 ## media
-links for video and book in recommended section taken from youtube and amazon.com respectively
+links for video and book in recommended section taken from youtube and amazon.com respectively.
