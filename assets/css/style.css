@@ -297,6 +297,14 @@ input[type=submit] {
      }
 }
 
+/* For large to medium screens sizes from 1280px wide and down */
+@media screen and (max-width: 1280px) {
+
+    #collage-image {
+        height: 440px;
+    }
+}
+
         /* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
 
@@ -318,6 +326,7 @@ input[type=submit] {
         width: 100%;
     }
 }
+
 
 /* For large to medium screens sizes from 1070px wide and down */
 @media screen and (max-width: 1070px) {
@@ -444,6 +453,13 @@ input[type=submit] {
     }
 }
 
+/* For medium screens sizes from 857px wide and down */
+@media screen and (max-width: 857px) {
+    #collage-image {
+        height: 460px;
+    }
+}
+
  /* For medium screens sizes from 845px wide and down */
  @media screen and (max-width: 845px) {
      #about {
@@ -460,6 +476,10 @@ input[type=submit] {
 
     .to-do-box h2 {
         padding-top: 40px;
+    }
+
+    #collage-image {
+        height: 440px;
     }
 
     #video {
@@ -495,9 +515,17 @@ input[type=submit] {
         display: inline-block;
     }
     #collage-image {
-        height: fit-content;
+        height: 420px;
     }
 
+}
+
+/* For medium screens sizes from 728px wide and down */
+@media screen and (max-width: 728px) {
+
+#collage-image {
+    height: 370px;
+    }
 }
 
 /* For medium screens sizes from 662px wide and down */

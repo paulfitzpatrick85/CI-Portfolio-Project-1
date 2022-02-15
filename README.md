@@ -50,16 +50,13 @@ A page were users can signup for a newsletter, enter details that the site owner
 At the bottom of each page, the footer has social media icons linking to each sites homepage (as this is a ficitous site with without actual social media profiles).
 
 ## Testing section
-I tested and confirmed the three pages are responsive to screen sizes as small as 325px.
+- I tested and confirmed that the website displayed correctly accross multipe screen sizes from large monitors to laptop, tablet and small smartphones (as small as 325px), and also in different browsers including chrome, firefox and microsoft edge.
 
-I tested my html on the w3c vaildator and found all code to be ok.
-Although the intial test found three stray closing tags from the footer icons, and showed that I accidentally placed the script for font awesome below the closing body tag. Once these errors when tended to, the vaildator gave the all clear.
+- I tested my html on the w3c vaildator and my css on jigsaw and found all code to be ok. 
 
-I also tested my css on jigsaw and everything was perfect first time.
+- I confirmed that the signup form cannot be submitted without a name, correctly input email and at least one checkbox being ticked in the radio btton sections. 
 
-I confirmed that the signup form cannot be submitted without a name and correct type email, the other sections are not required because of the nature of the site, eg some users-parents in this case may not be at the point of looking for therapists or even know they need one yet.
-
-I tested the sites accessibility through lighthouse, the image below showing the results.
+- I tested the sites accessibility through lighthouse, the image below showing the results.
 
 ![Screenshot (107)](https://user-images.githubusercontent.com/55660566/153726157-f7f9f91e-1a91-4b22-ba01-5217a248913f.png)
 
@@ -69,7 +66,7 @@ A large number of breakpoints had to be used to allow for correct reponsiveness 
   
 ## deployment
 
-I deployed the website through github pages and confirmed that it displayed correctly across multipe screen sizes from large monitors to laptop, tablet and small smartphones (as small as 325px), and also in different browsers including chrome, firefox and microsoft edge
+I deployed the website through github pages and confirmed that
 
 ## credits
 All images taken from pexels except for both picture of wooden toys on resources page, taken from fruugo.ie and amazon respectively.
