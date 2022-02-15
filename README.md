@@ -29,6 +29,10 @@ At the top of all three pages, users will find links to the home, resources and 
 ## Theme.
 The color scheme of the header, footer and body where chosen to work around and play off the main hero image of the home page, and maintain the positive feel of the home page image throughout the pages that follow it.
 
+## Footer
+At the bottom of each page, the footer has social media icons linking to each sites homepage (as this is a ficitous site with without actual social media profiles).
+
+
 ## 'What you can do' and 'What you can use' sections.
 The main idea behind this website is that the ideas outlined are shortlisted from other users (as in other parents that have used the site or from the related social media sites) submitted recommendations.
 - The first section being what the users/parents can do to by themselves ie, educate themselves in the topic of ASD and also the mindset to approach the topic.
@@ -51,8 +55,7 @@ With it being stated on the homepage that these recommendations change weekly an
 ## Signup form
 
 A page were users can signup for a newsletter, enter details that the site owner can use to better understand the users situation (childs age, how often they attend services), and also a text area to submit comments and tips etc for the site to make its list for the resources page.
-
-At the bottom of each page, the footer has social media icons linking to each sites homepage (as this is a ficitous site with without actual social media profiles).
+The form requires that the user fill in their name, email, childs age, and also the they click the appropriate button for have often they attend a service and where they heard of this website.
 
 ## Testing section
 - I tested and confirmed that the website displayed correctly accross multipe screen sizes from large monitors to laptop, tablet and small smartphones (as small as 325px), and also in different browsers including chrome, firefox and microsoft edge.
