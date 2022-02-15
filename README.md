@@ -2,15 +2,20 @@
 
 View the finished website here - https://paulfitzpatrick85.github.io/CI-Portfolio-Project-1/
 
+## Who is this site for?
+
 The Parents A.S.D Resources website is intended as a source of clear and practical information for parents of children recently diagnosed with autism spectrum disorder, namely what they can do themselves for their children in the interim of waiting times for state provided and private services.
-![Screenshot (114)](https://user-images.githubusercontent.com/55660566/153727090-4d059db5-b85a-4cb8-bc77-da8e40248e89.png)
+![Screenshot (114)](https://user-images.githubusercontent.com/55660566/154047759-2fc07626-b5f5-4696-aefc-cd1a074fd544.png)
+
+## User stories
+
+- As a user I want to be able to navigate clearly and easily throughout the website. 
+- As a user I want to learn about the approaches to teaching a child with ASD through casual and easy to understand langauge.
+- As a user I want to send a comment or tip in the signup form only if I wish to and not be 'required' to enter some text just to be able to submit the form/sign up for the newsletter.
+
 # Features
 
- 
-
-
-
-## Homepage.
+ ## Homepage.
 On the homepage, below the main image, users will find a brief introduction of the three catagories that the site addresses, which are elaborated on in the follow page. 
 ![Screenshot (109)](https://user-images.githubusercontent.com/55660566/153726688-30f4e445-617b-4d63-be76-348f7e191830.png)
 
@@ -18,7 +23,7 @@ On the homepage, below the main image, users will find a brief introduction of t
 
 At the top of all three pages, users will find links to the home, resources and signup pages, along with an underline indicating which page the user is currently on. The example below showing the menu responive at 325px. 
 
-![Screenshot (110)](https://user-images.githubusercontent.com/55660566/153726768-ca062fa4-bca1-4ae7-8340-8066510eb745.png)
+![Screenshot (109)](https://user-images.githubusercontent.com/55660566/154048008-963b9ea7-cf94-414a-9eb0-db6ba69aa3c8.png)
 
 
 ## Theme.
@@ -31,8 +36,8 @@ The main idea behind this website is that the ideas outlined are shortlisted fro
 The layout for large screens is made to appear as four blocks, with the text and images of each section diagonal from one another.
 And as this would not work on smaller screens, the order of the sections were reversed to appear as text/image/text/image as the user scrolls down the screen. 
 - The second section shows what items can be used for what purposes and also includes a link to an external website for a parents course in communication called "Hanen:more than words".
-![Screenshot (111)](https://user-images.githubusercontent.com/55660566/153726899-7732b5aa-6aff-4994-840b-1653956daf43.png)
-![Screenshot (112)](https://user-images.githubusercontent.com/55660566/153726915-24731b35-9e0f-4af3-a20e-c1a093525bcf.png)
+![Screenshot (121)](https://user-images.githubusercontent.com/55660566/154048599-f12443bd-884d-4c6e-925e-efca9724a3f2.png)
+![Screenshot (123)](https://user-images.githubusercontent.com/55660566/154049079-9a6b70ed-3c5c-4039-ab84-a7f041bac4e7.png)
 
 
 
@@ -41,7 +46,7 @@ This section contains two embedded links.
 1. Ted Talk video from youtube.
 2. A book from amazon.
 With it being stated on the homepage that these recommendations change weekly and monthly, with the idea of obviously trying to help the user, but also ensure users return to the site regulary.
-![Screenshot (113)](https://user-images.githubusercontent.com/55660566/153727022-ecc8b3ec-fedb-49e0-96be-1c7ab1f0c9bd.png)
+ ![Screenshot (119)](https://user-images.githubusercontent.com/55660566/154045271-3b5ebb33-1aa0-429d-9185-b407c5473254.png)
 
 ## Signup form
 
@@ -56,21 +61,35 @@ At the bottom of each page, the footer has social media icons linking to each si
 
 - I confirmed that the signup form cannot be submitted without a name, correctly input email and at least one checkbox being ticked in the radio btton sections. 
 
+- I tested the all links work correctly in the navagtion menu, the social media links, and the links to external pages on the resources page like amazon.com and hanen.org 
+
 - I tested the sites accessibility through lighthouse, the image below showing the results.
 
-![Screenshot (107)](https://user-images.githubusercontent.com/55660566/153726157-f7f9f91e-1a91-4b22-ba01-5217a248913f.png)
+![Screenshot (118)](https://user-images.githubusercontent.com/55660566/154043336-24e31cfd-9f54-4622-843a-fb0eecc24a54.png)
 
-
+### User story testing
+- The navigation menu is very minimalistic across all pages and also maintains its centre position across all screen sizes for ease of use and familiarity across devices.
+- The information is presented in a easy to understand manner free of any jargon users may run into in more formal settings such as meetings with psychologists, speech therapist and so on. 
+- The sign up form  does not have a requirement for the text area to be fill out for the form to allow submission, as not every user, in this case a parent of a newly dianogised child, would be in a position to help with any recommendation to other parents.
+     
 ## Bugs found while creaing and testing
-A large number of breakpoints had to be used to allow for correct reponsiveness across screen sizes to maintain the sites structural intregrity.
+I found that a large number of breakpoints had to be used to allow for correct reponsiveness across screen sizes to maintain the sites structural intregrity, and mainly to maintain the aesthetics regarding images matching the sizes of the text sections next to them on the resources page.
   
 ## deployment
 
-I deployed the website through github pages and confirmed that
+I deployed the website through github pages through the following steps:
+- I saved, commited and push my work to github using the commands git add ., git commit -m "example comment", and git push respectively.
+- From my project repository I then navigated to the settings tab to find the github pages section where in the source section I selected main branch from the drop down menu and selected save, a link was then created for the published site.
 
 ## credits
-All images taken from pexels except for both picture of wooden toys on resources page, taken from fruugo.ie and amazon respectively.
-The html for the footer was taken from the lov running project as a template and edited to suit this page, changes in padding and size for example.
+- The main image on the home page and the 'born to stand out' image on the resources page are taken from pexels.
+- The collage image on the resources page was made using images from different sources: 
+1. The shape sorting toy image, top right is taken from fruugo.ie.  
+2. The peg board image, bottom left, is taken from amazon.com.
+3. The woman and child image is from pexels.
+4. The visual schedule is taken from printablee.com
+
+- The html for the footer was taken from the love running project as a template and edited to suit this page, changes in padding and size for example.
 
 ## media
-links for video and book in recommended section taken from youtube and amazon.com respectively.
+Links for the video and book in recommended section are taken from youtube.com and amazon.com respectively.
